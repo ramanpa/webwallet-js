@@ -6,7 +6,7 @@
   "messages": {
     "menu": {
       "home": "होम",
-      "account": "लेखा",
+      "account": "खाता",
       "send": "भेजना",
       "receive": "प्राप्त करना",
       "export": "निर्यात",
@@ -15,75 +15,75 @@
       "contacts": "संपर्क",
       "settings": "सेटिंग्स",
       "disconnect": "डिस्कनेक्ट",
-      "network": "नेटवर्क आँकड़े",
-      "mining": "खनिज"
+      "network": "नेटवर्क",
+      "mining": "खनन"
     },
     "global": {
-      "loading": "Loading",
-      "disableSecurity": "Disable this security, I understand the risk",
-      "passwordInvalidRequirements": "The password needs at least 8 characters - 1 upper case letter, 1 lower case letter, one number, and one special character",
-      "passwordConfirmationNotMatching": "The password does not match the first password you wrote",
-      "download": "Download",
+      "loading": "लोड",
+      "disableSecurity": "इस सुरक्षा को अक्षम करें, मैं जोखिम को समझता हूं",
+      "passwordInvalidRequirements": "पासवर्ड को कम से कम 8 वर्णों की आवश्यकता है - 1 कैपिटल केस लेटर, 1 स्मॉल केस लेटर, एक नंबर और एक विशेष चरित्र",
+      "passwordConfirmationNotMatching": "पासवर्ड आपके द्वारा लिखे गए पहले पासवर्ड से मेल नहीं खाता है",
+      "download": "डाउनलोड",
       "newVersionModal": {
-        "title": "A new version is available",
-        "content": "Do you want to reload to load the new version?",
-        "confirmText": "Yes",
-        "cancelText": "Back"
+        "title": "एक नया संस्करण उपलब्ध है",
+        "content": "क्या आप नए संस्करण को लोड करने के लिए फिर से रिलोड करना चाहते हैं?",
+        "confirmText": "हाँ",
+        "cancelText": "पीछे जाना"
       },
       "openWalletModal": {
-        "title": "Wallet Password",
-        "confirmText": "Open",
-        "cancelText": "Cancel"
+        "title": "वॉलेट पासवर्ड",
+        "confirmText": "खोलें",
+        "cancelText": "रद्द करना"
       },
       "invalidPasswordModal": {
-        "title": "Oops...",
-        "content": "Your password seems invalid",
-        "confirmText": "OK"
+        "title": "उफ़...",
+        "content": "आपका पासवर्ड अमान्य लगता है",
+        "confirmText": "ठीक है"
       },
       "invalidMnemonicModal": {
-        "title": "Oops...",
-        "content": "The mnemonic phrase is invalid",
-        "confirmText": "OK"
+        "title": "उफ़...",
+        "content": "स्मृति वाक्यांश अमान्य है",
+        "confirmText": "ठीक है"
       },
       "passwordNotComplexEnoughModal": {
-        "title": "The password is not complex enough",
-        "confirmText": "OK"
+        "title": "पासवर्ड पर्याप्त जटिल नहीं है",
+        "confirmText": "ठीक है"
       },
       "permissionRequiredForCameraModal": {
-        "title": "Oops...",
-        "content": "The permission to access your camera is required to scan the QR code",
-        "confirmText": "OK"
+        "title": "उफ़...",
+        "content": "QR कोड को स्कैन करने के लिए आपके कैमरे तक पहुंचने की अनुमति आवश्यक है",
+        "confirmText": "ठीक है"
       }
     },
     "bottom": {
-      "termsOfUse": "Terms of Use",
-      "privacyPolicy": "Privacy Policy",
-      "support": "Support",
-      "donate": "Donate",
-      "network": "Network Stats",
-      "miningPool": "Mining Pool",
+      "termsOfUse": "उपयोग की शर्तें",
+      "privacyPolicy": "गोपनीयता नीति",
+      "support": "सपोर्ट",
+      "donate": "दान करना",
+      "network": "नेटवर्क आंकड़े",
+      "miningPool": "खनन पूल",
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Qwertycoin Wallet",
-      "tagLine": "anywhere. anytime. anyplace. any device.",
-      "tagLineTwo": "The simplest way to use Qwertycoin",
+      "mainTitle": "Qwertycoin वॉलेट",
+      "tagLine": "कहीं भी। कभी भी। किसी भी जगह। किसी भी डिवाइस।",
+      "tagLineTwo": "Qwertycoin का उपयोग करने का सबसे सरल तरीका",
       "actions": {
-        "loadWallet": "Load my wallet",
-        "importWallet": "Import a wallet",
-        "create": "Create",
-        "createWallet": "Create a wallet"
+        "loadWallet": "मेरा बटुआ लोड करें",
+        "importWallet": "वॉलेट आयात करें",
+        "create": "बनाना",
+        "createWallet": "एक बटुआ बनाएं"
       }
     },
     "accountPage": {
-      "title": "Account",
-      "subtitle": "Your account overview and transaction history",
+      "title": "खाता",
+      "subtitle": "आपका खाता अवलोकन और लेन-देन का इतिहास",
       "synchronizingBlock": {
-        "text": "Synchronizing..."
+        "text": "सिंक्रनाइज़..."
       },
       "balanceBlock": {
-        "title": "Your balance",
-        "unlocked": "Unlocked"
+        "title": "आपका शेष",
+        "unlocked": "अनलॉक"
       },
       "currencyBlock": {
         "btc": "BTC",
@@ -104,59 +104,59 @@
         "vnd": "VND"
       },
       "historyBlock": {
-        "title": "Transaction history",
-        "pendingTxStatus": "Pending",
-        "emptyWallet": "You currently have no funds in this wallet.",
-        "waitSync": "Please wait until the wallet is updated",
-        "beReallyPatient": "The initial setup can take some time...",
-        "getCoinAddress": "Receive QWC"
+        "title": "लेन-देन का इतिहास",
+        "pendingTxStatus": "लंबित",
+        "emptyWallet": "वर्तमान में आपके पास इस वॉलेट में कोई फंड नहीं है।",
+        "waitSync": "वॉलेट अपडेट होने तक इंतजार करें",
+        "beReallyPatient": "प्रारंभिक सेटअप में कुछ समय लग सकता है...",
+        "getCoinAddress": "QWC प्राप्त करें"
       },
       "txDetails": {
-        "title": "Transaction details",
-        "txHash": "Transaction Hash",
-        "feesOnTx": "Transaction fee",
-        "blockHeight": "Block height",
-        "paymentId": "Payment ID",
-        "unlockStatus": "Status",
-        "unlockConfirm": "Confirmations",
-        "txPrivKey": "Transaction Private Key"
+        "title": "लेन-देन का विवरण",
+        "txHash": "लेन-देन हैश",
+        "feesOnTx": "लेन-देन शुल्क",
+        "blockHeight": "ब्लॉक ऊंचाई",
+        "paymentId": "भुगतान ID",
+        "unlockStatus": "स्थिति",
+        "unlockConfirm": "पुष्टि",
+        "txPrivKey": "लेन-देन निजी कुंजी"
       }
     },
     "changeWalletPasswordPage": {
-      "title": "Change your password",
+      "title": "अपना पासवर्ड बदलें",
       "oldPassword": {
-        "label": "Old password",
-        "invalid": "The password is invalid"
+        "label": "पुराना पासवर्ड",
+        "invalid": "पासवर्ड अमान्य है"
       },
       "newPassword": {
-        "label": "Choose a new password to protect your wallet"
+        "label": "अपने वॉलेट की सुरक्षा के लिए एक नया पासवर्ड चुनें"
       },
       "newPasswordConfirm": {
-        "label": "Confirm the new password"
+        "label": "नए पासवर्ड की पुष्टि करें"
       },
-      "confirm": "Change the password",
+      "confirm": "पासवर्ड बदलें",
       "modalSuccess": {
-        "title": "Password changed!",
-        "confirmText": "OK"
+        "title": "पासवर्ड बदल गया है!",
+        "confirmText": "ठीक है"
       }
     },
     "contactPage": {
       "contactBlock": {
-        "cancel": "Cancel",
-        "confirm": "Add",
-        "contactAddress": "Address",
-        "contactName": "Name",
-        "getNewContacts": "Add Contact",
-        "newContact": "New Contact",
-        "noContacts": "You don't have any contacts yet.",
-        "title": "Your Contacts"
+        "cancel": "रद्द करना",
+        "confirm": "जोड़े",
+        "contactAddress": "पता",
+        "contactName": "नाम",
+        "getNewContacts": "संपर्क जोड़ें",
+        "newContact": "नया संपर्क",
+        "noContacts": "आपका अभी तक कोई संपर्क नहीं है।",
+        "title": "आपके संपर्क"
       },
       "contactDetailsBlock": {
-        "address": "Address",
-        "sendTo": "Send to ",
+        "address": "पता",
+        "sendTo": "भेजें ",
         "title": "Contactdetails"
       },
-      "subtitle": "Get in touch with other people",
+      "subtitle": "अन्य लोगों के साथ संपर्क में रहें",
       "title": "संपर्क"
     },
     "electionsPage": {
@@ -164,58 +164,58 @@
     },
     "createWalletPage": {
       "generatingStep": {
-        "title": "Your wallet is being generated...",
-        "subtitle": "It's almost done",
-        "waitingMessage": "Generating your wallet..."
+        "title": "आपका बटुआ उत्पन्न किया जा रहा है...",
+        "subtitle": "यह लगभग हो गया है",
+        "waitingMessage": "अपना बटुआ उत्पन्न करना..."
       },
       "finalizationStep": {
-        "title": "That was simple. Your account is ready!",
-        "subtitle": "Be ready to use Qwertycoin like you never have",
+        "title": "यह सरल था । आपका खाता तैयार है!",
+        "subtitle": "Qwertycoin का उपयोग करने के लिए तैयार रहें जैसे आपके पास कभी नहीं है",
         "passwordSelectionBlock": {
-          "label": "Protect your wallet"
+          "label": "अपने बटुए को सुरक्षित रखें"
         },
         "passwordConfirmBlock": {
-          "label": "Confirm the password"
+          "label": "पासवर्ड की पुष्टि करें"
         },
-        "validPassword": "Use this password",
+        "validPassword": "इस पासवर्ड का उपयोग करें",
         "backupBlock": {
-          "title": "Save your private credentials for recovery.",
-          "option1": "Option 1: ",
-          "option2": "Option 2: ",
-          "titlePdf": "Download a PDF copy",
-          "titleManualWrite": "Write down my keys",
-          "privateKeys": "Private key",
-          "mnemonicPhrase": "Mnemonic phrase",
-          "separatorManualMethodsSolution": " or ",
-          "confirmManuallyWritten": "I wrote my seed phrase down",
-          "warningMessage": "**Do not lose it!** It cannot be recovered if you lose it.<br/>**Do not share it!** Your funds will be stolen if you use this file or seed on a malicious/phishing site.<br/>**Make a backup!** Secure it like the millions of dollars it may one day be worth.<br/>",
-          "finishButton": "I understand. Continue."
+          "title": "वसूली के लिए अपने निजी साख को बचाएं।",
+          "option1": "विकल्प 1: ",
+          "option2": "विकल्प 2: ",
+          "titlePdf": "PDF कॉपी डाउनलोड करें",
+          "titleManualWrite": "अपनी निजी कुंजी लिखें",
+          "privateKeys": "निजी कुंजी",
+          "mnemonicPhrase": "स्मृति वाक्यांश",
+          "separatorManualMethodsSolution": " या ",
+          "confirmManuallyWritten": "मैने अपने सीड वाक्यांश नीचे लिखा था",
+          "warningMessage": "**इसे मत खोना! ** यदि आप इसे खो देते हैं तो इसे वापिस नहीं प्राप्त किया जा सकता है।<br/>**इसे साझा न करें!** यदि आप दुर्भावनापूर्ण/फ़िशिंग साइट पर इस फ़ाइल या सीड का उपयोग करते हैं तो आपका धन चोरी हो जाएगा।<br/>**एक बैकअप बनाओ!** इसे लाखों डॉलर की तरह सुरक्षित करें। यह एक दिन लाभदायक हो सकता है।<br/>",
+          "finishButton": "मै समझता/ती हुँ। जारी रखें।"
         }
       },
       "disclaimerBlock": {
-        "title": "Risk of Using QwertycoinWallet",
-        "content": "QwertycoinWallet is a web-based interface. It helps you use Qwertycoin without running a full Qwertycoin node. <br/>We recommend you treat QwertycoinWallet like you will treat your actual wallet."
+        "title": "Qwertycoin वॉलेट का उपयोग करने का जोखिम",
+        "content": "Qwertycoin वॉलेट एक वेब आधारित इंटरफेस है। यह आपको पूर्ण Qwertycoin नोड चलाने के बिना Qwertycoin का उपयोग करने में मदद करता है। <br/>हम आपको Qwertycoin वॉलेट का इस्तेमाल करने की सलाह देंगे जैसे आप अपने वास्तविक वॉलेट का इस्तेमाल करेंगे।"
       }
     },
     "donatePage": {
-      "title": "Donate",
-      "subtitle": "Help to fund the development and pay the bills",
+      "title": "दान करना",
+      "subtitle": "विकास निधि और बिलों का भुगतान करने में मदद",
       "webwalletBlock": {
-        "title": "Webwallet",
-        "content": "If you want to help to pay for the servers, to support new features development, and like this app, please consider a donation: <br/><br/>"
+        "title": "वेबवॉलेट",
+        "content": "यदि आप सर्वर के लिए भुगतान करने में मदद करना चाहते हैं, नई सुविधाओं के विकास का समर्थन करने के लिए, और इस ऐप की तरह, कृपया दान पर विचार करें: <br/><br/>"
       },
       "devFundBlock": {
-        "title": "Qwertycoin Dev fund",
-        "content": "To help Qwertycoin, you can donate at these addresses"
+        "title": "Qwertycoin डेवलपर्स फंड",
+        "content": "Qwertycoin की मदद करने के लिए, आप इन पतों पर दान कर सकते हैं"
       }
     },
     "supportPage": {
-      "title": "Support",
-      "subtitle": "We are here to help!",
+      "title": "सपोर्ट",
+      "subtitle": "हम आपकी मदद करने के लिए यहां हैं!",
       "getInTouchBlock": {
-        "title": "Let's Get In Touch!",
-        "content": "Do you have ideas or feedback that could help us improve the wallet? Contact us!",
-        "discord": "Qwertycoin Discord Channel"
+        "title": "चलो संपर्क में रहते है!",
+        "content": "क्या आपके पास ऐसे विचार या प्रतिक्रिया हैं जो हमें वॉलेट को बेहतर बनाने में मदद कर सकते हैं? हमसे संपर्क करें!",
+        "discord": "Qwertycoin Discord चैनल"
       }
     },
     "networkPage": {
@@ -223,292 +223,292 @@
       "subtitle": "Insights on the Qwertycoin network",
       "statsBlock": {
         "connectNode": "कनेक्टेड मास्टर्नोड",
-        "hashrate": "Network hashrate",
-        "height": "Blockchain height",
-        "difficulty": "Network difficulty",
-        "lastTimeBlock": "Last block found",
-        "lastReward": "Last block reward"
+        "hashrate": "नेटवर्क हैशरेट ",
+        "height": "ब्लॉकचेन ऊंचाई",
+        "difficulty": "नेटवर्क कठिनाई",
+        "lastTimeBlock": "अंतिम ब्लॉक मिला",
+        "lastReward": "अंतिम ब्लॉक इनाम"
       }
     },
     "sendPage": {
-      "title": "Send QWC",
+      "title": "QWC भेजें",
       "sendBlock": {
         "address": {
-          "label": "Destination address",
-          "placeholder": "Write the address where you want to send funds",
-          "invalid": "The destination address is invalid",
-          "fundsTo": "The funds will be sent to",
-          "receiver": "Receiver",
-          "description": "Description"
+          "label": "गंतव्य पता",
+          "placeholder": "पता लिखें जहां आप फंड भेजना चाहते हैं",
+          "invalid": "गंतव्य पता अमान्य है",
+          "fundsTo": "धन भेजा जाएगा",
+          "receiver": "रिसीवर",
+          "description": "विवरण"
         },
         "amount": {
-          "label": "Amount to send",
-          "invalid": "The amount is invalid"
+          "label": "भेजने के लिए राशि",
+          "invalid": "राशि अमान्य है"
         },
         "paymentId": {
-          "label": "Payment ID (optional)",
-          "invalid": "The payment ID is invalid. The length must be 16 or 64 characters"
+          "label": "भुगतान ID (वैकल्पिक)",
+          "invalid": "भुगतान ID अमान्य है। लंबाई 16 या 64 वर्ण होना चाहिए"
         },
-        "sendButton": "Send",
-        "cancelButton": "Cancel"
+        "sendButton": "भेजें",
+        "cancelButton": "रद्द करना"
       },
       "qrCodeScanning": {
-        "explication": "Present the QR code"
+        "explication": "QR कोड प्रस्तुत करें"
       },
       "notEnoughMoneyModal": {
-        "title": "Oops...",
-        "content": "You don't have enough funds in your wallet to execute this transfer",
-        "confirmText": "OK"
+        "title": "उफ़...",
+        "content": "इस अंतरण को निष्पादित करने के लिए आपके वॉलेट में पर्याप्त फंड नहीं है",
+        "confirmText": "ठीक है"
       },
       "thankYouDonationModal": {
-        "title": "Thank you for your donation!",
-        "content": "Your help is appreciated. This donation will help make Qwertycoin better",
-        "confirmText": "OK"
+        "title": "आपके दान के लिए धन्यवाद!",
+        "content": "आपकी मदद की सराहना की जाती है। यह दान Qwertycoin को बेहतर बनाने में मदद करेगा",
+        "confirmText": "ठीक है"
       },
       "transferSentModal": {
-        "title": "Transfer sent successfully!",
-        "confirmText": "OK"
+        "title": "स्थानांतरण सफलतापूर्वक भेजा!",
+        "confirmText": "ठीक है"
       },
       "transferExceptionModal": {
-        "title": "Oops...",
-        "content": "An error occurred. Please report this error: {details}",
-        "confirmText": "OK"
+        "title": "उफ़...",
+        "content": "एक त्रुटि हुई। कृपया इस त्रुटि की रिपोर्ट करें: {details}",
+        "confirmText": "ठीक है"
       },
       "invalidAmountModal": {
-        "title": "Oops...",
-        "content": "Invalid amount",
-        "confirmText": "OK"
+        "title": "उफ़...",
+        "content": "अमान्य राशि",
+        "confirmText": "ठीक है"
       },
       "creatingTransferModal": {
-        "title": "Creating transfer ...",
-        "content": "Please wait..."
+        "title": "स्थानांतरण का निर्माण ...",
+        "content": "कृपया प्रतीक्षा करें..."
       },
       "finalizingTransferModal": {
-        "title": "Finalizing transfer ...",
-        "content": "Please wait..."
+        "title": "स्थानांतरण को अंतिम रूप देना ...",
+        "content": "कृपया प्रतीक्षा करें..."
       },
       "confirmTransactionModal": {
-        "title": "Confirm transfer?",
-        "content": "Amount: {amount}<br/>Fees: {fees}<br/>Total: {total}",
-        "confirmText": "Confirm",
-        "cancelText": "Cancel"
+        "title": "स्थानांतरण की पुष्टि करें?",
+        "content": "कुल राशि: {amount}<br/>Fees: {fees}<br/>Total: {total}",
+        "confirmText": "सुदृढ़ करना",
+        "cancelText": "रद्द करना"
       },
       "waitingNfcModal": {
-        "title": "Waiting Nfc",
-        "content": "Bring closer to the other device"
+        "title": "Nfc प्रतीक्षा कर रहा है",
+        "content": "अन्य डिवाइस के करीब लाएं"
       }
     },
     "receivePage": {
-      "title": "Receive QWC",
+      "title": "QWC प्राप्त करें",
       "receiveBlock": {
         "address": {
-          "title": "Your address to receive funds:",
-          "label": "Give this address to receive funds"
+          "title": "फंड प्राप्त करने के लिए आपका पता:",
+          "label": "फंड प्राप्त करने के लिए यह पता दें"
         },
         "qrCode": {
-          "title": "Or personalize the QR code:",
-          "labelAmount": "Amount (optional)",
-          "labelRecipient": "Recipient name (optional)",
-          "labelDescription": "Transaction description (optional)",
-          "updateButton": "Update"
+          "title": "या QR कोड को निजीकृत करें:",
+          "labelAmount": "कुल राशि (वैकल्पिक)",
+          "labelRecipient": "प्राप्तकर्ता का नाम (वैकल्पिक)",
+          "labelDescription": "लेन-देन विवरण (वैकल्पिक)",
+          "updateButton": "अद्यतन"
         }
       },
       "qrBlock": {
-        "title": "Your customized QR code"
+        "title": "आपका अनुकूलित QR कोड"
       },
       "waitingNfcToWriteModal": {
-        "title": "Waiting Nfc",
-        "titleSuccess": "Nfc Tag written",
-        "content": "Bring closer the NFC tag to write"
+        "title": "Nfc प्रतीक्षा कर रहा है",
+        "titleSuccess": "Nfc टैग लिखा",
+        "content": "लिखने के लिए Nfc टैग के करीब लाएं"
       },
       "nfcErrorModal": {
-        "titleInsufficientCapacity": "Tag capacity insufficient"
+        "titleInsufficientCapacity": "टैग क्षमता अपर्याप्त"
       }
     },
     "miningPage": {
-      "title": "Mine directly in your browser",
-      "subtitle": "Support the network by mining and be rewarded with QWC",
+      "title": "अपने ब्राउज़र में सीधे खनन करें",
+      "subtitle": "खनन द्वारा नेटवर्क का समर्थन करें और QWC के साथ पुरस्कृत किया जाए",
       "parameterBlock": {
         "title": "Parameters",
-        "labelDestinationAddress": "Wallet to mine",
-        "labelThreads": "Number of threads (more = higher hashrate)",
-        "start": "Start",
-        "stop": "Stop"
+        "labelDestinationAddress": "खनन करने के लिए वॉलेट",
+        "labelThreads": "थ्रेड की संख्या (अधिक = उच्च हैशरेट )",
+        "start": "शुरू करें",
+        "stop": "रुको"
       },
       "statisticsBlocks": {
-        "title": "Statistics",
-        "validShares": "Valid shares",
-        "hashrate": "Hashrate",
-        "maxHashrate": "Max Hashrate",
-        "dedicatedHardware": "With dedicating mining software and hardware, you could earn more and help decentralize the network.",
-        "miningHandledBy": "This mining is handled by the mining pool pool.qwertycoin.org"
+        "title": "आंकड़ा",
+        "validShares": "वैध शेयर",
+        "hashrate": "हैशरेट",
+        "maxHashrate": "अधिकतम हैशरेट",
+        "dedicatedHardware": "खनन सॉफ्टवेयर और हार्डवेयर समर्पित करने के साथ, आप अधिक कमा सकते हैं और नेटवर्क का विकेंद्रीकरण करने में मदद कर सकते हैं।",
+        "miningHandledBy": "इस खनन को खनन पूल द्वारा संभाला जाता है pool.qwertycoin.org"
       }
     },
     "settingsPage": {
-      "title": "Settings",
-      "subtitle": "Change your parameters here",
+      "title": "सेटिंग्स",
+      "subtitle": "यहां अपने मापदंडों को बदलें",
       "versionBlock": {
-        "versionNumber": "Version number: ",
-        "versionCode": "Version code: "
+        "versionNumber": "वर्जन नंबर: ",
+        "versionCode": "वर्जन कोड: "
       },
       "settingsBlock": {
         "speed": {
-          "label": "Speed to update the wallet (will consume more resources)",
-          "fastest": "Fastest",
-          "fast": "Fast",
-          "medium": "Medium",
-          "slow": "Slow"
+          "label": "वॉलेट को अपडेट करने के लिए गति (अधिक संसाधनों का उपभोग करेगा)",
+          "fastest": "बहुत तेज",
+          "fast": "तेज",
+          "medium": "मध्यम",
+          "slow": "धीमा"
         },
         "language": {
-          "label": "Language"
+          "label": "भाषा"
         },
         "currency": {
           "label": "राष्ट्रीय मुद्रा"
         },
         "readMinerTx": {
-          "label": "Read miner transactions (only for solo mining)"
+          "label": "खनन करने वाले के लेनदेन पढ़ें (केवल एकल खनन के लिए)"
         }
       },
-      "changePasswordButton": "Change my wallet password",
-      "deleteWalletButton": "Delete my wallet (local copy)",
+      "changePasswordButton": "मेरा वॉलेट पासवर्ड बदलें",
+      "deleteWalletButton": "मेरा वॉलेट हटाएं (स्थानीय प्रतिलिपि)",
       "walletSettings": {
         "creationHeight": {
-          "label": "Creation height of the wallet"
+          "label": "वॉलेट की निर्माण ऊंचाई"
         },
         "currentScanningHeight": {
-          "label": "Current scanning height"
+          "label": "वर्तमान स्कैनिंग ऊंचाई"
         },
-        "updateButton": "Update"
+        "updateButton": "अद्यतन"
       },
       "deleteWalletModal": {
-        "title": "Delete My Wallet (local copy)",
-        "content": "Are you sure you REALLY want to delete your wallet ?",
-        "confirmText": "Yes I'm sure",
-        "cancelText": "Cancel"
+        "title": "मेरा वॉलेट हटाएं (स्थानीय प्रतिलिपि)",
+        "content": "क्या आप सुनिश्चित हैं कि आप वास्तव में अपना वॉलेट हटाना चाहते हैं?",
+        "confirmText": "हां, मुझे यकीन है",
+        "cancelText": "रद्द करना"
       }
     },
     "importBasePage": {
       "parametersBlock": {
-        "title": "Parameters",
+        "title": "प्राचल",
         "password": {
-          "label": "Password to protect your wallet"
+          "label": "अपने वॉलेट की सुरक्षा के लिए पासवर्ड"
         },
         "passwordConfirm": {
-          "label": "Confirm the password",
-          "invalid": "The password does not match the first password you wrote"
+          "label": "पासवर्ड की पुष्टि करें",
+          "invalid": "पासवर्ड आपके द्वारा लिखे गए पहले पासवर्ड से मेल नहीं खाता है"
         },
         "importHeight": {
-          "label": "Height to import from:"
+          "label": "ऊंचाई से आयात करने के लिए:"
         }
       }
     },
     "importFromQrPage": {
-      "title": "Importing wallet from a QR code",
-      "subtitle": "Import a wallet from an offline backup",
+      "title": "QR कोड से वॉलेट आयात करना",
+      "subtitle": "ऑफ़लाइन बैकअप से वॉलेट आयात करें",
       "qrCodeBlock": {
-        "title": "QR code",
-        "startScanButton": "Start the scan",
-        "importButton": "Import"
+        "title": "QR कोड",
+        "startScanButton": "स्कैन शुरू करें",
+        "importButton": "आयात"
       },
       "qrScanningBlock": {
-        "title": "Present the QR code"
+        "title": "QR कोड प्रस्तुत करें"
       }
     },
     "exportPage": {
-      "title": "Backup your credentials",
+      "title": "अपने क्रेडेंशियल्स का बैकअप लें",
       "publicAddressBlock": {
-        "title": "Your public address"
+        "title": "आपका सार्वजनिक पता"
       },
       "pdfBlock": {
-        "title": "PDF Backup",
-        "downloadButton": "Download"
+        "title": "PDF बैकअप",
+        "downloadButton": "डाउनलोड"
       },
       "warningBlock": {
-        "title": "Warning",
-        "content": "If you choose to save your private keys or your mnemonic phrase, PLEASE DO NOT store them in clear-text for your own safety.<br/>The file is an alternate solution where your keys are encrypted and contains a backup of all your transactions to spare you a future synchronisation."
+        "title": "चेतावनी",
+        "content": "यदि आप अपनी निजी कुंजी या अपने स्मृति वाक्यांश को सहेजना चुनते हैं, तो कृपया उन्हें अपनी सुरक्षा के लिए स्पष्ट पाठ में स्टोर न करें।<br/>फ़ाइल एक वैकल्पिक समाधान है जहां आपकी कुंजी एन्क्रिप्टेड हैं और इसमें आपके सभी लेनदेन का बैकअप होता है ताकि आप भविष्य के सिंक्रोनाइजेशन को छोड़ सकें।"
       },
       "exportBlock": {
-        "title": "Export your RAW credentials",
-        "privateKeysButton": "Get my private keys",
-        "mnemonicKeysButton": "Get my mnemonic phrase",
-        "fileButton": "Export to a file"
+        "title": "अपने रॉ क्रेडेंशियल्स का निर्यात करें",
+        "privateKeysButton": "निजी कुंजी प्राप्त करें",
+        "mnemonicKeysButton": "स्मृति वाक्यांश प्राप्त करें",
+        "fileButton": "किसी फाइल को निर्यात करें"
       },
       "walletKeysModal": {
-        "title": "Private keys",
-        "confirmText": "OK",
-        "content": "Please carefully store these keys. <b>Possessing them means possessing the funds associated</b> !<br/>Spend key: {privSpendKey}<br/>Private view key: {privViewKey}"
+        "title": "निजी कुंजी",
+        "confirmText": "ठीक है",
+        "content": "कृपया ध्यान से इन कुंजी को स्टोर करें। <b>उन्हें रखने का मतलब है जुड़े फंड को रखने का</b> !<br/>खर्च कुंजी : {privSpendKey}<br/>निजी दृश्य कुंजी: {privViewKey}"
       },
       "mnemonicKeyModal": {
-        "title": "Mnemonic phrase",
-        "confirmText": "OK",
-        "content": "Please store carefully this mnemonic phrase. <b>Possessing it means possessing the funds associated</b> ! The phrase is:<br/>{mnemonic}"
+        "title": "स्मृति वाक्यांश",
+        "confirmText": "ठीक है",
+        "content": "कृपया इस स्मृति वाक्यांश को ध्यान से स्टोर करें। <b>इसे रखने का मतलब है संबंधित फंड को लगाना</b> ! वाक्यांश है:<br/>{mnemonic}"
       },
       "mnemonicLangSelectionModal": {
-        "title": "In which language do you want your mnemonic phrase?",
-        "confirmText": "Export"
+        "title": "आप किस भाषा में अपने स्मृति वाक्यांश चाहते हैं?",
+        "confirmText": "निर्यात"
       }
     },
     "importPage": {
-      "title": "Create a wallet",
-      "subtitle": "From previously created keys, file, or mnemonic phrase",
-      "chooseMethod": "Choose your import method:",
-      "fromKeys": "From keys",
-      "fromFile": "From a file",
-      "fromMnemonic": "From a mnemonic phrase",
-      "fromQr": "From a QR code"
+      "title": "एक wallet बनाएं",
+      "subtitle": "पहले बनाई गई कुंजी, फ़ाइल या स्मृति वाक्यांश से",
+      "chooseMethod": "अपना आयात विधि चुनें:",
+      "fromKeys": "कुंजी से",
+      "fromFile": "एक फ़ाइल से",
+      "fromMnemonic": "एक स्मृति वाक्यांश से",
+      "fromQr": "QR कोड से"
     },
     "termsOfUsePage": {
-      "title": "Terms of use",
-      "subtitle": "Please read them carefully."
+      "title": "उपयोग की शर्तें",
+      "subtitle": "कृपया उन्हें ध्यान से पढ़ें।"
     },
     "privacyPolicyPage": {
-      "title": "Privacy Policy",
-      "subtitle": "Please read them carefully."
+      "title": "गोपनीयता नीति",
+      "subtitle": "कृपया उन्हें ध्यान से पढ़ें।"
     },
     "importFromFilePage": {
-      "title": "Importing wallet from a backup file",
-      "subtitle": "Use your backup file to create a wallet",
+      "title": "बैकअप फ़ाइल से वॉलेट आयात करना",
+      "subtitle": "वॉलेट बनाने के लिए अपनी बैकअप फ़ाइल का उपयोग करें",
       "walletBlock": {
-        "title": "Wallet file",
-        "label": "Select the file",
-        "importButton": "Import"
+        "title": "वॉलेट फ़ाइल",
+        "label": "फाइल का चयन करें",
+        "importButton": "आयात"
       }
     },
     "importFromMnemonicPage": {
-      "title": "Importing wallet from a mnemonic phrase",
-      "subtitle": "Use your phrase to create a wallet",
+      "title": "एक स्मृति वाक्यांश से वॉलेट आयात करें",
+      "subtitle": "वॉलेट बनाने के लिए अपने वाक्यांश का उपयोग करें",
       "mnemonicBlock": {
-        "title": "Mnemonic phrase",
+        "title": "स्मृति वाक्यांश",
         "mnemonic": {
-          "label": "Mnemonic phrase: 25 words",
-          "invalid": "The mnemonic phrase is invalid",
-          "language": "Language"
+          "label": "स्मृति वाक्यांश: 25 शब्द",
+          "invalid": "स्मृति वाक्यांश अमान्य है",
+          "language": "भाषा"
         },
-        "importButton": "Import"
+        "importButton": "आयात"
       }
     },
     "importFromKeysPage": {
-      "title": "Importing wallet from keys",
-      "subtitle": "Use your keys to create a wallet",
+      "title": "कुंजी से वॉलेट आयात करें",
+      "subtitle": "वॉलेट बनाने के लिए अपनी कुंजी का उपयोग करें",
       "parametersBlock": {
         "viewOnlyWallet": {
-          "label": "Do you want a view only wallet?"
+          "label": "क्या आप केवल वॉलेट देखना चाहते हैं?"
         }
       },
       "keysBlock": {
-        "titleNotViewOnly": "Wallet keys",
-        "titleViewOnly": "View only wallet",
+        "titleNotViewOnly": "वॉलेट कुंजि",
+        "titleViewOnly": "केवल वॉलेट देखें",
         "privateSpend": {
-          "label": "Private spend key"
+          "label": "निजी खर्च कुंजी"
         },
         "privateView": {
-          "label": "Private view key",
-          "optional": "(optional)"
+          "label": "निजी दृश्य कुंजी",
+          "optional": "(वैकल्पिक)"
         },
         "publicKey": {
-          "label": "Public key"
+          "label": "सार्वजनिक कुंजी"
         },
-        "importButton": "Import"
+        "importButton": "आयात"
       }
     }
   },
